@@ -1,0 +1,41 @@
+/**index.wxss**/
+
+page
+{
+  height: 100%;
+  width: 100%;
+}
+
+.container
+{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.upper-screen 
+{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  /* background-color: red; */
+}
+
+.lower-screen 
+{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+}
+
+.selection
+{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}

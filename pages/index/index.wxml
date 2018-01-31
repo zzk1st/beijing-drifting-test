@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="upper-screen">
+    <text class="paragraph">{{mainText}}</text>
+  </view>
+  <view class="lower-screen">
+    <button class="selection" bindtap="clickLeft">{{leftText}}</button>
+    <button class="selection" bindtap="clickRight">{{rightText}}</button>
+  </view>
+</view>
